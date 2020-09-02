@@ -1,0 +1,131 @@
+
+input, select {
+    color: rgb(36, 0, 94);
+}
+
+body {
+    background-color: #fbffea;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    line-height: normal;
+    text-align: justify;
+}
+
+#job-offer {
+    font-size: 18px;
+}
+
+.headers {
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(206, 243, 255);
+}
+
+#blank-cell {
+    background-color: rgb(255, 224, 206);
+}
+
+td {
+    background-color: rgb(225, 255, 225);
+}
+
+
+.contacts>li {
+    list-style-type: none;
+}
+
+.contacts {
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+#central_box {
+    text-align: center;
+}
+
+#left_box {
+    text-align: right;
+    line-height: 15px;
+}
+
+#right_box {
+    text-align: left;
+    margin-left: 0px;
+}
+
+#top_container {
+    display: grid;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: none;
+    border: none;
+}
+
+#top_container:hover {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#edu-work_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: none;
+    border: none;
+}
+
+#edubox {
+    border-right: 1px solid black;
+    padding: 10px;
+    padding-right: 35px;
+}
+
+#workbox {
+    padding: 10px;
+    padding-right: 35px;
+}
+
+#workbox>div {
+    margin-bottom: 30px;
+}
+
+#hard_skills {
+    text-align: center;
+}
+
+#IT {
+    padding-left: 38%;
+    text-align: center;
+    align-items: center;
+}
+
+
+#IT:hover {
+    padding-left: 30%;
+    font-size: 175%;
+    width: 35%;
+}
