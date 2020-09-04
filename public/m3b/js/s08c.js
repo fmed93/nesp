@@ -12,6 +12,6 @@ let changeBackColorAmongThree = () => {
 };
 
 let changeBackColor = () => {
-    let color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+    let color = 'rgb(' + random(256) + ',' + random(256) + ',' + random(256) + ')';
     document.getElementsByTagName('body')[0].style.backgroundColor = color;
 };

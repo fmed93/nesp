@@ -18,7 +18,7 @@ let dog = {
 
 console.log(dog, typeof dog);
 console.log(dog.name + ' breed is ' + dog.breed);
-console.log(dog['name'] + 'breed is ' + dog['breed']);
+console.log(dog['name'] + ' breed is ' + dog['breed']);
 
 // array is kind of object
 let data = [1, 'Tom', false];

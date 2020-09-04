@@ -28,5 +28,9 @@ if (function () { }) {
 }
 
 if("42" == 42) {
-    console.log("?");
+    console.log("string \"42\" is (not strictly) equal to the number 42");
+}
+
+if("42" !== 42) {
+    console.log("string \"42\" is (strictly) not equal to the number 42");
 }

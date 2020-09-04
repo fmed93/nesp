@@ -21,8 +21,10 @@
 
     <script type="text/javascript">
         function getInfoPlain() {
-            let request = new XMLHttpRequest();
+            let request = new XMLHttpRequest(); //prerequisito per lavorare con AJAX
             request.onload = callback;
+            //se avessi messo "callback()" avrei dato in pasto alla request il "return" di callback()
+            //ma callback() non ritorna niente, io voglio far eseguire tutta la callback()
             request.open("GET", "data/tom.json");
             request.send();
         }
@@ -31,13 +33,13 @@
             let target = document.getElementById('target');
             if (this.status != 200) {
                 target.value += "[" + this.status + "]\n";
-                return;
-            }
-            let json = JSON.parse(this.responseText);
+            } else {
+                let json = JSON.parse(this.responseText);
 
-            target.value += json.name + '\n';
-            target.value += json.job.title + '\n';
-            target.value += json.job.languages + '\n';
+                target.value += json.name + '\n';
+                target.value += json.job.title + '\n';
+                target.value += json.job.languages + '\n';
+            }
         }
 
         function getInfoJQuery() {

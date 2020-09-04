@@ -26,7 +26,7 @@ data.push('push2');
 data.unshift('unshift');
 console.log('after two pushes and one unshift', data);
 
-data.splice(1, 2);
+data.splice(1, 2); // Elimino 2 elementi a partire dalla posizione 1
 console.log('splice from 1 of 2 items', data);
 
 console.log('there is no data[5]:', data[5]);

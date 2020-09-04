@@ -14,7 +14,7 @@ inputX.onfocus = () => {
 };
 
 inputX.onblur = () => {
-    console.log('x blurred')
+    console.log('x blurred');
 };
 
 inputX.onchange = () => {

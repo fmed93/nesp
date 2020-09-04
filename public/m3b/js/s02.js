@@ -5,5 +5,5 @@
  */
 
 let target = document.getElementById('target');
-target.textContent = 'Current date-time: ' + new Date();
-console.log('hello!');
+target.textContent += '-> Current date-time: ' + new Date();
+console.log('hello! A javascript file has been used!');

@@ -7,7 +7,9 @@
 <head>
     <meta charset="utf-8">
     <title>My CV</title>
-    <base target="_blank">
+<!--    <base target="_blank">  -->
+
+    <script type="text/javascript" src="js/cv.js" defer> </script>
 
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -66,29 +68,26 @@
                 </li>
 
                 <li>
-                    <div>
-                        <h3>BSc in Energy Engineering</h3>
-                        <ul>
-                            <li><b>&#9906;</b> <a href="https://corsi.unibo.it/1cycle/EnergyEngineering"
-                                    title="BSc in Energy and Nuclear Engineering">University of Bologna</a></li>
-                            <li>
-                                <b>Thesis title: </b>
-                                <i>Principi di funzionamento e applicazioni industriali delle torce al plasma ad
-                                    accoppiamento induttivo </i>
-                                <a href="https://drive.google.com/file/d/1gZckZPGG6AYxML4lbbR3lJfFJTNYH9iD/view"
-                                    title="BSc thesis">[.pdf]</a>
-                            </li>
-                            <li><b>Final grade: </b>108/110</li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        <iframe width="425" height="350" frameborder="0" scrolling="yes"
-                            src="https://www.openstreetmap.org/export/embed.html?bbox=11.327572161248726%2C44.48697112459066%2C11.331021482041878%2C44.48824742462402&amp;layer=mapnik"
-                            style="border: 1px solid black"></iframe>
-                        <br>
-                        <small><a href="https://www.openstreetmap.org/#map=19/44.48761/11.32930">Open map in a new tab</a></small>
-                    </p>
+                    <h3>BSc in Energy Engineering</h3>
+                    <ul>
+                        <li><b>&#9906;</b> <a href="https://corsi.unibo.it/1cycle/EnergyEngineering"
+                                title="BSc in Energy and Nuclear Engineering">University of Bologna</a></li>
+                        <li>
+                            <b>Thesis title: </b>
+                            <i>Principi di funzionamento e applicazioni industriali delle torce al plasma ad
+                                accoppiamento induttivo </i>
+                            <a href="https://drive.google.com/file/d/1gZckZPGG6AYxML4lbbR3lJfFJTNYH9iD/view"
+                                title="BSc thesis">[.pdf]</a>
+                        </li>
+                        <li><b>Final grade: </b>108/110</li>
+                    </ul>
+                    <br>
+                    <iframe class="map" frameborder="0" scrolling="yes"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=11.327572161248726%2C44.48697112459066%2C11.331021482041878%2C44.48824742462402&amp;layer=mapnik"
+                        style="border: 1px solid black"></iframe>
+                    <br>
+                    <small><a href="https://www.openstreetmap.org/#map=19/44.48761/11.32930">Open map in a new
+                            tab</a></small>
                 </li>
 
                 <li>
@@ -97,14 +96,13 @@
                         <li><b>&#9906;</b> "E. Fermi" Scientific High School - Bologna</li>
                         <li><b>Final grade: </b>94/100</li>
                     </ul>
-
-                    <p>
-                        <iframe width="425" height="350" frameborder="0" scrolling="yes"
-                            src="https://www.openstreetmap.org/export/embed.html?bbox=11.370782548478646%2C44.48415438312516%2C11.374231869271798%2C44.48543074478866&amp;layer=mapnik"
-                            style="border: 1px solid black"></iframe>
-                        <br>
-                        <small><a href="https://www.openstreetmap.org/#map=19/44.48479/11.37251">Open map in a new tab</a></small>
-                    </p>
+                    <br>
+                    <iframe class="map" frameborder="0" scrolling="yes"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=11.370782548478646%2C44.48415438312516%2C11.374231869271798%2C44.48543074478866&amp;layer=mapnik"
+                        style="border: 1px solid black"></iframe>
+                    <br>
+                    <small><a href="https://www.openstreetmap.org/#map=19/44.48479/11.37251">Open map in a new
+                            tab</a></small>
                 </li>
             </ul>
         </div>
@@ -163,43 +161,55 @@
                         <thead>
                             <tr>
                                 <th scope="row" id="blank-cell"></th>
-                                <th scope="col">Suff.</th>
-                                <th scope="col">Good</th>
-                                <th scope="col">Great</th>
+                                <th scope="col" class="intest">Suff.</th>
+                                <th scope="col" class="intest">Good</th>
+                                <th scope="col" class="intest">Great</th>
                             </tr>
                         </thead>
                         <tr>
-                            <th scope="row">C++</th>
+                            <th scope="row" class="intest">C++</th>
                             <td></td>
                             <td>X</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">Java 5</th>
+                            <th scope="row" class="intest">Java 5</th>
                             <td></td>
                             <td>X</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">MySQL</th>
+                            <th scope="row" class="intest">MySQL</th>
                             <td>X</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">JDBC</th>
+                            <th scope="row" class="intest">JDBC</th>
                             <td>X</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">HTML</th>
+                            <th scope="row" class="intest">HTML</th>
                             <td>X</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row">MATLAB</th>
+                            <th scope="row" class="intest">CSS</th>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="intest">JavaScript</th>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="intest">MATLAB</th>
                             <td></td>
                             <td>X</td>
                             <td></td>
@@ -212,69 +222,60 @@
             <hr>
 
 
-            <div>
+            <div id="job">
                 <h2 class="headers">JOB OFFERS</h2>
                 <div>
                     <p>If you want to contact me to offer me a job, please fill in the following form with the necessary
                         information:</p>
                 </div>
 
-                <form method="get" id="job-offer">
+                <form id="job-offer" method="GET">
+                    <fieldset>
+                        <legend><b>EMPLOYER</b></legend>
+                        <div id="Company"><label><b>Company: </b><input class= "borderBlack" type="text" name="fname" required></label>
+                        </div>
+                        <div id="Contact"><label><b>HR contact: </b><input class= "borderBlack" type="text" name="fname" required></label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>POSITION</b></legend>
+                        <br>
+                        <div>
+                            <b>Position name:</b>
+                            <select name="os">
+                                <option value="none" selected>-</option>
+                                <option value="b_e_dev">Back-end developer</option>
+                                <option value="f_e_dev">Front-end developer</option>
+                                <option value="f_s_dev">Full-stack developer</option>
+                                <option value="r_d">Research & development</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <b>Required skills:</b>
+                            <input type="checkbox" id="langJ" name="lang" value="Java" checked /> <label
+                                for="langJ">Java</label>
+                            <input type="checkbox" id="langPy" name="lang" value="Python" /> <label
+                                for="langPy">Python</label>
+                            <input type="checkbox" id="langCpp" name="lang" value="Cpp" checked /> <label
+                                for="langCpp">C++</label>
+                            <input type="checkbox" id="langSQL" name="lang" value="SQL" /> <label
+                                for="langSQL">SQL</label>
+                            <input type="checkbox" id="langHTML" name="lang" value="HTML" /> <label
+                                for="langHTML">HTML</label>
+                            <input type="checkbox" id="langCSS" name="lang" value="CSS" /> <label
+                                for="langCSS">CSS</label>
+                            <input type="checkbox" id="langML" name="lang" value="Matlab" /> <label
+                                for="langML">MATLAB</label>
+                        </div>
+
+                        <div>
+                            <b>Start date: </b> <input type="date" name="milestone">
+                        </div>
+                    </fieldset>
                     <div>
-                        <fieldset>
-                            <legend><b>EMPLOYER</b></legend>
-                            <div><label><b>Company: </b><input type="text" name="fname" required></label></div>
-                            <div><label><b>HR contact: </b><input type="text" name="fname" required></label></div>
-                        </fieldset>
-
-                        <fieldset>
-                            <div>
-                                <legend><b>POSITION</b></legend>
-                                <br>
-                                <div>
-                                    <b>Position name:</b>
-                                    <select name="os">
-                                        <option value="none" selected>-</option>
-                                        <option value="b_e_dev">Back-end developer</option>
-                                        <option value="f_e_dev">Front-end developer</option>
-                                        <option value="f_s_dev">Full-stack developer</option>
-                                        <option value="r_d">Research & development</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div>
-                                <b>Required skills:</b>
-                                <input type="checkbox" id="langJ" name="lang" value="Java" checked /> <label
-                                    for="langJ">Java</label>
-                                <input type="checkbox" id="langPy" name="lang" value="Python" /> <label
-                                    for="langPy">Python</label>
-                                <input type="checkbox" id="langCpp" name="lang" value="Cpp" checked /> <label
-                                    for="langCpp">C++</label>
-                                <input type="checkbox" id="langSQL" name="lang" value="SQL" /> <label
-                                    for="langSQL">SQL</label>
-                                <input type="checkbox" id="langHTML" name="lang" value="HTML" /> <label
-                                    for="langHTML">HTML</label>
-                                <input type="checkbox" id="langCSS" name="lang" value="CSS" /> <label
-                                    for="langCSS">CSS</label>
-                                <input type="checkbox" id="langML" name="lang" value="Matlab" /> <label
-                                    for="langML">MATLAB</label>
-                            </div>
-
-                            <div>
-                                <form>
-                                    <div>
-                                        <b>Start date: </b> <input type="date" name="milestone">
-                                    </div>
-                                </form>
-                            </div>
-
-
-                        </fieldset>
-
-                    </div>
-                    <div>
-                        <button>Enter</button>
+                        <button type="submit">Enter</button>
                     </div>
                 </form>
             </div>

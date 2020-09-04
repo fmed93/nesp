@@ -11,7 +11,7 @@ console.log("Tom is at the beginning?", s.startsWith('Tom'));
 console.log("Sally is at the end?", s.endsWith('Sally'));
 console.log("Bob is in?", s.includes('Bob'));
 
-let end = s.indexOf(',', idx);
+let end = s.indexOf(',', idx); //Gli sto dicendo di trovare la prima virgola dopo la posizione idx
 console.log("next comma position", end);
 console.log('slice [' + idx + '..' + end + ')', s.slice(idx, end));
 

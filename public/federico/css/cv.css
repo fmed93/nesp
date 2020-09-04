@@ -23,14 +23,19 @@ body {
 
 
 table {
-    border: 2px solid black;
+    /*  border: 2px solid black;    */
     border-collapse: collapse;
     width: 20%;
 }
 
 td, th {
     border: 1px solid black;
-    padding: 3px;
+/*    padding: 3px;     */
+    text-align: center;
+}
+
+.intest {
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -38,12 +43,13 @@ th {
     background-color: rgb(206, 243, 255);
 }
 
-#blank-cell {
-    background-color: rgb(255, 224, 206);
-}
-
 td {
     background-color: rgb(225, 255, 225);
+}
+
+#blank-cell {
+    background-color: transparent;
+    border: none;
 }
 
 
@@ -118,14 +124,26 @@ td {
 }
 
 #IT {
-    padding-left: 38%;
-    text-align: center;
-    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
 }
 
 
 #IT:hover {
-    padding-left: 30%;
     font-size: 175%;
-    width: 35%;
+}
+
+
+.borderRed {
+    border: 3px red solid;
+}
+
+.borderBlack {
+    border: 2px black solid;
+}
+
+.map {
+    width: 80%;
+    height: 300px;
 }

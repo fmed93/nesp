@@ -8,8 +8,16 @@ document.getElementById('backAdd').onclick = () => {
     target.classList.add('back');
 };
 
+document.getElementById('backAdd').onmouseover = () => {
+    console.log("About to add background");
+};
+
 document.getElementById('backRemove').onclick = () => {
     target.classList.remove('back');
+};
+
+document.getElementById('backRemove').onmouseover = () => {
+    console.log("About to remove background");
 };
 
 document.getElementById('foreToggle').onclick = () => {
